@@ -1,5 +1,5 @@
 {
-  "name": "country-language",
+  "name": "country-language-lodash",
   "version": "0.1.8",
   "description": "Query languages spoken to a country or countries where people speak a language.",
   "main": "index.js",
@@ -28,18 +28,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:bdswiss/country-language.git"
+    "url": "git@github.com:kade-robertson/country-language.git"
   },
   "engines": {
     "node": "*"
   },
   "author": {
-    "name": "Tassos Diamantidis",
-    "email": "tassos@inruntime.com"
+    "name": "Kade Robertson",
+    "email": "kade@kaderobertson.dev"
   },
   "bugs": {
-    "url": "https://github.com/bdswiss/country-language/issues",
-    "email": "opensource@bdswiss.com"
+    "url": "https://github.com/kade-robertson/country-language/issues",
+    "email": "kade@kaderobertson.dev"
   },
   "license": "MIT",
   "volta": {
