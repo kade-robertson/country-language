@@ -5,8 +5,7 @@
   "main": "index.js",
   "types": "index.d.ts",
   "dependencies": {
-    "underscore": "^1.13.1",
-    "underscore.deep": "^0.5.1"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@types/node": "^13.9.1",
