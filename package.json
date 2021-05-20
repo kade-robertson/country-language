@@ -41,5 +41,9 @@
     "url": "https://github.com/bdswiss/country-language/issues",
     "email": "opensource@bdswiss.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "volta": {
+    "node": "10.24.1",
+    "yarn": "1.22.10"
+  }
 }
