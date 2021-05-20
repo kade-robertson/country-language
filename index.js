@@ -1,10 +1,7 @@
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-var _ = require('underscore')
-  , _d = require('underscore.deep')
+var _ = require('lodash')
   , utils = require('./utils')
   , data = require('./data.json');
-
-_.mixin(_d);
 
 var noop = function(err, value) {
   if (err) return err;
@@ -120,7 +117,7 @@ exports.getCountry  = function (code, cb, noLangInfo) {
     if (!country) {
       return cb('There is no country with code "' + code + '"');
     }
-    country = _.deepClone(country);
+    country = _.cloneDeep(country);
     if (!noLangInfo) {
       langs = country.languages;
       country.languages = [];
@@ -165,7 +162,7 @@ exports.getLanguage = function (code, cb, noCountryInfo) {
     if (!language) {
       return cb('There is no language with code "' + code + '"');
     }
-    language = _.deepClone(language);
+    language = _.cloneDeep(language);
     if (!noCountryInfo) {
       countrs = language.countries;
       language.countries = [];
