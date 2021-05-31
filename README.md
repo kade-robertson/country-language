@@ -6,16 +6,16 @@
 
 ### Node.js
 
-`country-language` is available on [npm](https://www.npmjs.org/package/country-language).
+`country-language-lodash` is available on [npm](https://www.npmjs.org/package/country-language-lodash).
 
-    $ npm install country-language
+    $ npm install country-language-lodash
 
 ## Usage
 
-Once you require `country-language`, the following API will be available.
+Once you require `country-language-lodash`, the following API will be available.
 
 ```js
-var CountryLanguage = require("country-language");
+var CountryLanguage = require("country-language-lodash");
 ```
 
 ### .getLanguageCodes (languageCodeType, cb)
